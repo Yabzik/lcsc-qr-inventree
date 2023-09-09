@@ -1,7 +1,7 @@
 
 # LCSC QR Code to [InvenTree](https://github.com/inventree/InvenTree) scanner
 
-![LCSC Packet](https:// "LCSC Packet")
+![LCSC Packet](https://github.com/Yabzik/lcsc-qr-inventree/blob/main/packet.jpg?raw=true "LCSC Packet")
 
 This is the MVP of the LCSC packet QR code scanner with integration with [InvenTree](https://github.com/inventree/InvenTree) server via API.
 
