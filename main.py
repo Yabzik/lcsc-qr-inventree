@@ -7,7 +7,7 @@ import os
 from dotenv import load_dotenv
 load_dotenv()
 
-api = InvenTreeAPI(os.getenv('INVENTREE_SERVER'), token='')
+api = InvenTreeAPI(os.getenv('INVENTREE_SERVER'), token=os.getenv('INVENTREE_TOKEN'))
 
 PARENT_CATEGORY = os.getenv('ROOT_CATEGORY_ID')
 LOCATION_ID = os.getenv('LOCATION_ID')
